@@ -20,14 +20,14 @@ console.log(tarjetasDestapadas);
 if(tarjetasDestapadas == 1){
     tarjeta1=document.getElementById(id);
     primerResultado = num [id]
-    tarjeta1.innerHTML = `<img src= "./images/${primerResultado}.png" alt=""> `;
+    tarjeta1.innerHTML = `<img src= "${primerResultado}.png" alt=""> `;
 
     tarjeta1.ariaDisabled = true;
 
     }else if(tarjetasDestapadas ==2){
         tarjeta2 = document.getElementById(id);
         segundoResultado = num [id];
-        tarjeta2.innerHTML = `<img src= "./images/${segundoResultado}.png" alt=""> `;
+        tarjeta2.innerHTML = `<img src= "${segundoResultado}.png" alt=""> `;
 
         tarjeta2.ariaDisabled= true;
 
@@ -71,7 +71,5 @@ function reiniciarJuego() {
     boton.innerHTML = '';
     boton.ariaDisabled = false;
   }
-}
-}
-}
+}}};
 
